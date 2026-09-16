@@ -16,7 +16,7 @@
 
 <details><summary><strong>Read the profile as text</strong></summary>
 
-I'm Demilade Oyewusi, a Senior Backend Engineer with 8+ years of experience building production systems across commerce, financial operations, loyalty and data platforms. I spent nearly five years collaborating remotely with a Netherlands-based engineering team.
+I'm Demilade Oyewusi, a Senior Backend Engineer with 8+ years of experience building production systems across commerce, financial operations, Multi Tenant SaaS, loyalty and data platforms.
 
 - **Glamrush (Dec 2025–Jul 2026):** Multi-storefront e-commerce, Paystack and Flutterwave payments, idempotent workflows, transactional outbox events, and an AI/LLM customer service chatbot.
 - **rb2 (Jul 2020–May 2025):** Contributed to Club Staatsloterij, the Dutch National Lottery loyalty platform, using C#/.NET, CQRS, MSSQL and Azure.
