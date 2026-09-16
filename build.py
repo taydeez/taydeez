@@ -28,7 +28,7 @@ class Panel:
 for dark in [False,True]:
  p=Panel(378,'About Demilade Oyewusi',dark); p.chapter('01','The engineer','~/demilade')
  p.text(36,126,'People see the product.',34,family='Georgia,serif'); p.text(36,173,'I think about what holds it together.',34,family='Georgia,serif')
- p.lines(36,224,['8+ years building commerce, financial and data platforms.', 'Nearly five years collaborating with a Netherlands-based team.'])
+ p.lines(36,224,['8+ years building commerce, MultiTenant SaaS, financial and data platforms.'])
  p.line_at(36,285,964,285)
  for x,big,small in [(36,'BACKEND FIRST','Laravel · .NET · Node.js'),(370,'AI IN THE WORKFLOW','OpenAI Codex · Claude'),(735,'OPEN TO REMOTE','Nigeria / worldwide')]:
   p.text(x,322,big,17,p.accent); p.text(x,354,small,16,p.muted)
@@ -69,7 +69,7 @@ for dark in [False,True]:
  p=Panel(224,'Contact Demilade; open to remote opportunities worldwide',dark); p.chapter('06','Start a conversation','~/connect')
  p.text(36,128,'Let’s build something dependable.',33,family='Georgia,serif'); p.text(36,182,'demioyewusi@gmail.com',23,p.accent); p.text(964,182,'OPEN TO REMOTE',17,p.muted,'end'); p.save('contact',dark)
 
-alts={'about':'Demilade: 8+ years of backend engineering, nearly five years with a Netherlands-based team. Laravel, .NET, Node.js. Codex and Claude in the development workflow.','flow':'Animated conceptual request flow: client to application to transaction and outbox, then queue consumer. Illustrative, not live telemetry.','work':'Glamrush: commerce, payments and AI chatbot. rb2: Dutch National Lottery loyalty. Cititrust: accounting, audit trails and team leadership.','route':'Career: PayPorte 2017–2018; Cititrust 2018–2019; Terragon 2019–2020; rb2 2020–2025; Glamrush 2025–2026.','stack':'PHP, Laravel, C#, .NET, Node.js, TypeScript, PostgreSQL, MySQL, MSSQL, Redis, Kafka, RabbitMQ, Docker, Azure, Google Cloud, Vue and Nuxt. AI: Codex, Claude and LLM integration.','contact':'Contact demioyewusi@gmail.com. Open to remote opportunities worldwide.'}
+alts={'about':'Demilade: 8+ years of backend engineering, Laravel, .NET, Node.js. Codex and Claude in the development workflow.','flow':'Animated conceptual request flow: client to application to transaction and outbox, then queue consumer. Illustrative, not live telemetry.','work':'Glamrush: commerce, payments and AI chatbot. rb2: Dutch National Lottery loyalty. Cititrust: accounting, audit trails and team leadership.','route':'Career: PayPorte 2017–2018; Cititrust 2018–2019; Terragon 2019–2020; rb2 2020–2025; Glamrush 2025–2026.','stack':'PHP, Laravel, C#, .NET, Node.js, TypeScript, PostgreSQL, MySQL, MSSQL, Redis, Kafka, RabbitMQ, Docker, Azure, Google Cloud, Vue and Nuxt. AI: Codex, Claude and LLM integration.','contact':'Contact demioyewusi@gmail.com. Open to remote opportunities worldwide.'}
 def picture(name): return f'<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/{name}.svg" /><img src="assets/light/{name}.svg" width="100%" alt="{escape(alts[name],quote=True)}" /></picture>'
 nav='<p align="center"><a href="https://www.linkedin.com/in/demilade-oyewusi/">LINKEDIN ↗</a> &nbsp; / &nbsp; <a href="mailto:demioyewusi@gmail.com">EMAIL ↗</a> &nbsp; / &nbsp; <a href="https://github.com/taydeez?tab=repositories">REPOSITORIES ↗</a></p>'
 parts=['<p><code>D/O — ENGINEERING INDEX</code></p><h1>Demilade Oyewusi</h1><p><strong>Senior Backend Engineer</strong> · Nigeria / Remote</p><p>Reliable systems. Thoughtful architecture.</p>',nav]
@@ -78,7 +78,7 @@ parts += ['<p><strong>On GitHub:</strong> <a href="https://github.com/taydeez/SE
 parts += [picture(n) for n in ['route','stack']]
 parts += ['''<details><summary><strong>Read the profile as text</strong></summary>
 
-I'm Demilade Oyewusi, a Senior Backend Engineer with 8+ years of experience building production systems across commerce, financial operations, loyalty and data platforms. I spent nearly five years collaborating remotely with a Netherlands-based engineering team.
+I'm Demilade Oyewusi, a Senior Backend Engineer with 8+ years of experience building production systems across commerce, financial operations, loyalty and data platforms.
 
 - **Glamrush (Dec 2025–Jul 2026):** Multi-storefront e-commerce, Paystack and Flutterwave payments, idempotent workflows, transactional outbox events, and an AI/LLM customer service chatbot.
 - **rb2 (Jul 2020–May 2025):** Contributed to Club Staatsloterij, the Dutch National Lottery loyalty platform, using C#/.NET, CQRS, MSSQL and Azure.
