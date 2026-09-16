@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://www.linkedin.com/in/demilade-oyewusi/">LINKEDIN ↗</a> &nbsp; / &nbsp; <a href="mailto:demioyewusi@gmail.com">EMAIL ↗</a> &nbsp; / &nbsp; <a href="https://github.com/taydeez?tab=repositories">REPOSITORIES ↗</a></p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/about.svg" /><img src="assets/light/about.svg" width="100%" alt="Demilade: 8+ years of backend engineering. Laravel, .NET, Node.js. Codex and Claude in the development workflow." /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/about.svg" /><img src="assets/light/about.svg" width="100%" alt="Demilade: 8+ years of backend engineering, nearly five years with a Netherlands-based team. Laravel, .NET, Node.js. Codex and Claude in the development workflow." /></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/flow.svg" /><img src="assets/light/flow.svg" width="100%" alt="Animated conceptual request flow: client to application to transaction and outbox, then queue consumer. Illustrative, not live telemetry." /></picture>
 
@@ -16,7 +16,7 @@
 
 <details><summary><strong>Read the profile as text</strong></summary>
 
-I'm Demilade Oyewusi, a Senior Backend Engineer with 8+ years of experience building production systems across commerce, financial operations, Multi Tenant SaaS, loyalty and data platforms.
+I'm Demilade Oyewusi, a Senior Backend Engineer with 8+ years of experience building production systems across commerce, financial operations, loyalty and data platforms. I spent nearly five years collaborating remotely with a Netherlands-based engineering team.
 
 - **Glamrush (Dec 2025–Jul 2026):** Multi-storefront e-commerce, Paystack and Flutterwave payments, idempotent workflows, transactional outbox events, and an AI/LLM customer service chatbot.
 - **rb2 (Jul 2020–May 2025):** Contributed to Club Staatsloterij, the Dutch National Lottery loyalty platform, using C#/.NET, CQRS, MSSQL and Azure.
